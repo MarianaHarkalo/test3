@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    font-family: HelveticaNeueCyr;
+    border: 0;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: "HelveticaNeueCyr";  
+    src: url("src/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+ }
+ 
+ @font-face {
+   font-family: "HelveticaNeueCyr_Bold";  
+   src: url("src/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: normal;
+}
+@font-face {
+   font-family: "HelveticaNeueCyr_Thin";  
+   src: url("src/assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: normal;
+}
+@font-face {
+   font-family: "Roboto";  
+   src: url("src/assets/fonts/Roboto/Roboto-Light.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: normal;
+}

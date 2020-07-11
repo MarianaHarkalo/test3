@@ -1,0 +1,46 @@
+ <div id="header">
+ <ng-container *ngIf="bool==false; else elseTemplate">
+    <div class="logo">
+        <img src="assets/images/Screenshot_1.png" alt="">
+    </div>
+    <div class="menu_info">
+        <p>Who we are
+            <span>
+                <img src="assets/images/menudown.png" class="icon" alt="">
+            </span>
+        </p>
+        <p>Walk-in Clinic</p>
+        <p>Services
+            <span>
+                <img src="assets/images/menudown.png" class="icon"alt="">
+            </span>
+        </p>
+        <p>Appointments</p>
+        <p>Contact</p>  
+    </div>
+ </ng-container>
+ <ng-template #elseTemplate>
+<nav role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span class="opacity1"></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a><li>Who we are</li></a>
+        <a><li>Walk-in Clinic</li></a>
+        <a><li>Services</li></a>
+        <a><li>Appointments</li></a>
+        <a><li>Contact</li></a>
+      </ul>
+    </div>
+  </nav>
+  <div class="logo">
+    <img src="assets/images/Screenshot_1.png" alt="">
+</div>
+<div class="search">
+    <img src="assets/images/search.png" alt="">
+</div>
+ </ng-template>
+</div>

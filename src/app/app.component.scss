@@ -1,0 +1,13 @@
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+app-header{
+    width: 1440px;
+}
+
+@media screen and (min-width: 375px) and(max-width: 378px) {
+    main,  app-header,  app-footer{
+        width: 377px;
+    }
+}

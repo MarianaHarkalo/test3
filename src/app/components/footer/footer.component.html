@@ -1,0 +1,94 @@
+<div id="footer1">
+  <div class="footer_content">
+    <img src="assets/images/Screenshot_2.png" class="icon" alt="">
+    <div class="footer_menu">
+      <p>About us</p>
+      <p>Our Staff</p>
+      <p>Walk-in Clinic</p>
+      <p>Appointments</p>
+      <p *ngIf="bool==true">Services</p>
+    </div>
+    <div class="info">
+      <div class="social_media">
+        <div class="title title1">Social media</div>
+        <div class="back1">
+          <span class="back">
+            <img src="assets/images/linkedin.png" class="social_icon" alt="">
+          </span>
+          <span class="back">
+            <img src="assets/images/facebook.png" class="social_icon1" alt="">
+          </span>
+          <span class="back">
+            <img src="assets/images/twitter.png" class="social_icon2" alt="">
+          </span>
+          <span class="back">
+            <img src="assets/images/Youtube.png" class="social_icon3" alt="">
+          </span>
+        </div>
+      </div>
+      <div class="services" *ngIf="bool==false">
+        <div class="title">Services</div>
+        <div class="part" >
+          <div class="part1">
+            <p>Family Practice</p>
+            <p>Optometry</p>
+            <p>Dental Clinic</p>
+            <p>Dietitian</p>
+            <p>Physiotherapy Clinic</p>
+          </div>
+          <div class="part2">
+            <p>Audiology/Hearing Aids</p>
+            <p>X-ray Ultrasound</p>
+            <p>Nuclear Cardiologists</p>
+            <p>Pharmacy</p>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <div class="title">Contacts</div>
+        <div class="part">
+          <div class="contact_part">
+            <div class="contact_icon">
+              <img src="assets/images/phone2.png" alt="">
+            </div>
+            <div class="contact_info">(308) 555-0121</div>
+          </div>
+        </div>
+        <div class="contact_part">
+          <div class="contact_icon">
+            <img src="assets/images/message.png" alt="">
+          </div>
+          <div class="contact_info">kelly.howard@example.com</div>
+        </div>
+        <div class="contact_part">
+          <div class="contact_icon">
+            <img src="assets/images/place.png" alt="">
+          </div>
+          <div class="contact_info">6928 Blossom Hill Rd undefined Surrey, Oregon 20441 United States</div>
+        </div>
+      </div>
+      <div class="hours">
+        <div class="title title_hour">Hours</div>
+        <div class="part_hour">
+            <div class="part_hour1">Mon-Thurs:</div>
+            <div class="part_hour2">9AM - 8PM</div>
+        </div>
+        <div class="part_hour">
+            <div class="part_hour1">Friday:</div>
+            <div class="part_hour2">9AM - 2PM</div>
+        </div>
+        <div class="part_hour">
+            <div class="part_hour1">Saturday:</div>
+            <div class="part_hour2">9AM - 3PM</div>
+        </div>
+        <div class="part_hour">
+            <div class="part_hour1">Sunday:</div>
+            <div class="part_hour2">CLOSED</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer2" *ngIf="bool==false">
+    <p>Copyright © Lockwood.com 2019 | Disclaimer</p>
+</div>

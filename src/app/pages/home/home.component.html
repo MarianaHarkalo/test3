@@ -1,0 +1,288 @@
+<section id="section1">
+  <div class="img_block">
+    <img src="assets/images/hover1.png" class="hover_img">
+    <img src="assets/images/image1.png" class="first_img">
+  </div>
+  <div class="info">
+    <h1 class="title">
+      Your Friendly Neighborhood Medical Clinic
+    </h1>
+    <div class="info_about">
+      Lockwood Clinic has provided compassionate and comprehensive care to the Ontario community for nearly a century.
+      Founded on the belief that patients should have a convenient and all-inclusive destination for diagnostic testing
+      and related treatment
+    </div>
+    <input type="button" value="Check Wait Times" class="check_button">
+  </div>
+</section>
+<section id="section2">
+  <div class="title2">
+    <h1 class="title_text">
+      Medical Clinic Downtown Toronto
+    </h1>
+  </div>
+  <div class="img_block2">
+    <div class="fig1"></div>
+    <div class="fig2"></div>
+    <img src="assets/images/img2.png" class="second_img">
+  </div>
+  <div class="text">Lockwood Clinic has provided compassionate and comprehensive care to the Ontario community for
+    nearly a century. Founded on the belief that patients should have a convenient and all-inclusive destination for
+    diagnostic testing and related treatment, Lockwood works to provide medical and health care that is as patient
+    friendly as it is extensive.<br> <br> Our downtown medical clinic provides a “one-stop” healthcare destination for
+    Toronto
+    area residents of all ages. We provide onsite testing with Nuclear Cardiology and an X-Ray Ultrasound Lab along with
+    a Pharmacy and Physiotherapy Clinic.<br> <br> Each department of our clinic is directed by experienced physicians
+    and
+    professionals including onsite pathologists, ultrasound technicians, cardiologists, and family practice physicians.
+    Each member of the Lockwood team has extensive experience in their field and patient care. <br> <br> Experience the
+    Lockwood
+    difference with our commitment to healthcare that is focused on total wellness and patient satisfaction.</div>
+</section>
+<section id="section3">
+  <img src="assets/images/hover2.png" class="hover_img1">
+  <span class="title3">
+    <h1 class="title_text1">
+      Walk-In Medical Clinic Downtown, Toronto
+    </h1>
+  </span>
+  <div class="info_section">
+    <div class="block1">
+      <div class="block_content">
+        <img src="assets/images/Union3.png" alt="" class="icon1">
+        <div class="block_text">24 Hr Holter Monitoring</div>
+      </div>
+    </div>
+    <div class="block2">
+      <div class="block_content">
+        <img src="assets/images/Union4.png" alt="" class="icon1 audiology">
+        <div class="block_text1">Audiology Testing</div>
+      </div>
+    </div>
+    <div class="block3">
+      <div class="block_content">
+        <img src="assets/images/Union5.png" alt="" class="icon1">
+        <div class="block_text1"> 24 Hr Blood Pressure Monitoring</div>
+      </div>
+    </div>
+    <div class="block4">
+      <div class="block_content">
+        <img src="assets/images/Union6.png" alt="" class="icon1 testing">
+        <div class="block_text1">Spirometry Testing</div>
+      </div>
+    </div>
+    <div class="block5">
+      <div class="block_content">
+        <img src="assets/images/Union7.png" alt="" class="icon1">
+        <div class="block_text1">Optometrist/Eye Exams/Eyewear</div>
+      </div>
+    </div>
+  </div>
+  <div class="text1">
+    Lockwood walk-in clinic provides convenient and trusted care when you need it. As a dedicated walk-in clinic, we
+    strive to have the staff and supplies available to handle a wide range of medical concerns. From simple coughs and
+    colds to personal injuries and diagnostic needs, our walk-in clinic is here to provide the best care for our
+    community. <br> <br>By maintaining a centralized database of patient information, our entire medical staff can
+    access your
+    files and provide optimal, personalized care based on your chart. This helps to minimize waiting for patients and
+    the potential for inaccurate or incomplete medical history information. <br> <br>While Lockwood does accept
+    appointments,
+    referrals are not required for the majority of our services unless you require a specialist. Our walk-in services
+    allow our patients to get care quickly for a variety of illnesses, injuries and preventative treatments including:
+  </div>
+</section>
+<section id="section4">
+  <div class="background">
+    <div class="info_section4">
+      <div><img src="assets/images/image3.png" class="third_img" *ngIf="bool==false" alt=""></div>
+      <div class="text4">
+        <div class="title4">
+          <h1 class="title_text4">
+            Learn More About <span class="bold"> Our Hours</span> And When <span class="bold">An Appointment Is
+              Required</span>
+          </h1>
+        </div>
+        <div class="text4_info">If have additional questions, our highly trained staff can address them during normal
+          business hours by calling us at</div>
+        <div class="adding_info">
+          <div class="phone">
+            <div class="phone_icon">
+              <img src="assets/images/phone.png" alt="">
+            </div>
+            <div class="number">(308) 555-0121</div>
+          </div>
+          <input type="button" class="read_now_botton" value="Read Now">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="liner_background" *ngIf="bool==false"></div>
+</section>
+<section id="section5">
+  <ng-container *ngIf="bool===false; else elseTemplate">
+    <div class="menu_info">
+      <div class="menu">
+        <p class="active">Family Practice</p>
+        <p>Optometry</p>
+        <p>Dental Clinic</p>
+        <p>Dietitian</p>
+        <p>Physiotherapy</p>
+        <p>Audiology/Hearing Aids</p>
+        <p>X-Ray Ultrasound Lab</p>
+        <p>Nuclear Cardiologists</p>
+      </div>
+      <div class="dropdown_info">
+        <div class="all">
+          <div class="drop_part">
+            <div class="drop_title">Family Practice at Lockwood Downtown Medical Clinic</div>
+            <img src="assets/images/Union1.png" class="icon" alt="">
+          </div>
+          <div class="text_info5">Lockwood family practice provides comprehensive and compassionate care for your whole
+            family. Our medical clinic downtown Toronto includes primary care options that make it easy to get the
+            healthcare support you need. From treatment for common illnesses such as strep throat and the flu to more
+            advanced concerns, we strive to provide care that you can count on to keep you and your loved ones
+            healthy.<br><br> At
+            our conveniently located medical clinic downtown, Toronto patients are treated by our friendly staff and
+            experienced physicians in our modern facility. Learn more about our primary and preventative care options
+            available from our downtown medical clinic.
+          </div>
+          <input type="button" class="read_more_botton" value="Read More">
+        </div>
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #elseTemplate>
+    <div class="all1">
+      <input checked type="radio" name="respond" id="desktop">
+      <article id="slider">
+        <input checked type="radio" name="slider" id="switch1">
+        <input type="radio" name="slider" id="switch2">
+        <input type="radio" name="slider" id="switch3">
+        <div id="slides">
+          <div id="overflow">
+            <div class="slide_part">
+              <article>
+                <div class="box">
+                  <div class="all_slide_text">
+                    <div class="title_slider">
+                      Family Practice at Lockwood Downtown Medical Clinic
+                    </div>
+                    <div class="slide_text">
+                      Lockwood family practice provides comprehensive and compassionate care for your whole family. Our
+                      medical clinic downtown Toronto includes primary care options that make it easy to get the
+                      healthcare support you need. From treatment for common illnesses such as strep throat and the flu
+                      to more advanced concerns, we strive to provide care that you can count on to keep you and your
+                      loved ones healthy. At our conveniently located medical clinic downtown, Toronto patients are
+                      treated by our friendly staff and experienced physicians in our modern facility. Learn more about
+                      our primary and preventative care options available from our downtown medical clinic.
+                    </div>
+                    <input type="button" value="Read More" id="read_more_slide_button" class="read_more_slide_button">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <div class="box">
+                  <div class="all_slide_text">
+                    <div class="title_slider">
+                      Family Practice at Lockwood Downtown Medical Clinic
+                    </div>
+                    <div class="slide_text">
+                      Lockwood family practice provides comprehensive and compassionate care for your whole family. Our
+                      medical clinic downtown Toronto includes primary care options that make it easy to get the
+                      healthcare support you need. From treatment for common illnesses such as strep throat and the flu
+                      to more advanced concerns, we strive to provide care that you can count on to keep you and your
+                      loved ones healthy. At our conveniently located medical clinic downtown, Toronto patients are
+                      treated by our friendly staff and experienced physicians in our modern facility. Learn more about
+                      our primary and preventative care options available from our downtown medical clinic.
+                    </div>
+                    <input type="button" value="Read More" id="read_more_slide_button" class="read_more_slide_button">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <div class="box">
+                  <div class="all_slide_text">
+                    <div class="title_slider">
+                      Family Practice at Lockwood Downtown Medical Clinic
+                    </div>
+                    <div class="slide_text">
+                      Lockwood family practice provides comprehensive and compassionate care for your whole family. Our
+                      medical clinic downtown Toronto includes primary care options that make it easy to get the
+                      healthcare support you need. From treatment for common illnesses such as strep throat and the flu
+                      to more advanced concerns, we strive to provide care that you can count on to keep you and your
+                      loved ones healthy. At our conveniently located medical clinic downtown, Toronto patients are
+                      treated by our friendly staff and experienced physicians in our modern facility. Learn more about
+                      our primary and preventative care options available from our downtown medical clinic.
+                    </div>
+                    <input type="button" value="Read More" id="read_more_slide_button" class="read_more_slide_button">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <div class="box">
+                  <div class="all_slide_text">
+                    <div class="title_slider">
+                      Family Practice at Lockwood Downtown Medical Clinic
+                    </div>
+                    <div class="slide_text">
+                      Lockwood family practice provides comprehensive and compassionate care for your whole family. Our
+                      medical clinic downtown Toronto includes primary care options that make it easy to get the
+                      healthcare support you need. From treatment for common illnesses such as strep throat and the flu
+                      to more advanced concerns, we strive to provide care that you can count on to keep you and your
+                      loved ones healthy. At our conveniently located medical clinic downtown, Toronto patients are
+                      treated by our friendly staff and experienced physicians in our modern facility. Learn more about
+                      our primary and preventative care options available from our downtown medical clinic.
+                    </div>
+                    <input type="button" value="Read More" id="read_more_slide_button" class="read_more_slide_button">
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div id="controls">
+          <label for="switch1"></label>
+          <label for="switch2"></label>
+          <label for="switch3"></label>
+        </div>
+        <div id="active">
+          <label for="switch1"></label>
+          <label for="switch2"></label>
+          <label for="switch3"></label>
+        </div>
+      </article>
+    </div>
+  </ng-template>
+</section>
+<section id="section6" #decign>
+  <img src="assets/images/image4.png" class="four_image" alt="">
+  <div class="section6_content">
+    <div class="section6_text">
+      <h1 class="section6_title">Pharmacy</h1>
+      <div class="section6_text1">Fill your prescriptions at our on-site pharmacy for the fastest and most convenient
+        service. Most prescriptions can be ready in a matter of minutes, making this an ideal solution for picking up
+        medications on the same day as an appointment. <br> <br> Our knowledgeable pharmacists can help guide you on
+        precautions
+        for new and existing prescriptions including potential drug interactions. As our pharmacy is connected to our
+        clinic, all of your prescription needs can easily be filled here.</div>
+      <div class="section6_text2">Pick-up from our pharmacy is on the main floor of our facility.<br> Free delivery
+        services are available to local residents.</div>
+    </div>
+  </div>
+</section>
+<div class="elipse1" *ngIf="bool==false"></div>
+<div class="elipse2" *ngIf="bool==false"></div>
+<div class="elipse3"></div>
+<div class="elipse4" *ngIf="bool==false"></div>
+<div class="elipse5" *ngIf="bool==false"></div>
+<div class="elipse6" *ngIf="bool==false"></div>
+<div class="elipse7" *ngIf="bool==false"></div>
+<div class="elipse9" *ngIf="bool==false"></div>
+<div class="elipse10" *ngIf="bool==false"></div>
+<div class="elipse12"></div>
+<div class="elipse13"></div>
+<div class="elipse14" *ngIf="bool==false"></div>
+<div class="elipse15" *ngIf="bool==false"></div>
+<div class="elipse16" *ngIf="bool==false"></div>
+<div class="elipse17" *ngIf="bool==false"></div>
+<div class="elipse18" *ngIf="bool==false"></div>
