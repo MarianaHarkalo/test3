@@ -1,0 +1,278 @@
+<section id="section1">
+  <div class="section1_img_block">
+    <img src="assets/images/hover1.png" class="hover_img">
+    <img src="assets/images/img3.png" class="first_img">
+  </div>
+  <div class="info_for_section1">
+    <h1 class="title_for_section1">
+      {{'WALK_IN_CLINIC.SECTION1.TITLE'|translate}}
+    </h1>
+    <div class="info_about">
+      {{'WALK_IN_CLINIC.SECTION1.INFO'|translate}}
+    </div>
+    <input type="button" value="{{'WALK_IN_CLINIC.SECTION1.BUTTON'|translate}}" class="check_button">
+  </div>
+</section>
+<section id="section2">
+  <div class="title_for_section2"> {{'WALK_IN_CLINIC.SECTION2.TITLE'|translate}} </div>
+  <div class="subtitle_for_section2"> {{'WALK_IN_CLINIC.SECTION2.SUBTITLE'|translate}}</div>
+  <div class="contain_block">
+    <div class="container">
+      <img src="assets/images/interview.png" class="container_image" alt="">
+      <div class="container_text"> {{'WALK_IN_CLINIC.SECTION2.CONTAINER.TEXT1'|translate}}</div>
+    </div>
+    <div class="container">
+      <img src="assets/images/diabetes.png" class="container_image" alt="">
+      <div class="container_text">{{'WALK_IN_CLINIC.SECTION2.CONTAINER.TEXT2'|translate}}</div>
+    </div>
+    <div class="container">
+      <img src="assets/images/bone-density.png" class="container_image" alt="">
+      <div class="container_text">{{'WALK_IN_CLINIC.SECTION2.CONTAINER.TEXT3'|translate}}</div>
+    </div>
+    <div class="container">
+      <img src="assets/images/videoconference.png" class="container_image" alt="">
+      <div class="container_text">{{'WALK_IN_CLINIC.SECTION2.CONTAINER.TEXT4'|translate}}</div>
+    </div>
+    <div class="container">
+      <img src="assets/images/health-insurance.png" class="container_image" alt="">
+      <div class="container_text">{{'WALK_IN_CLINIC.SECTION2.CONTAINER.TEXT5'|translate}}</div>
+    </div>
+    <div class="container">
+      <img src="assets/images/chemistry.png" class="container_image" alt="">
+      <div class="container_text">{{'WALK_IN_CLINIC.SECTION2.CONTAINER.TEXT6'|translate}}</div>
+    </div>
+    <div class="container">
+      <img src="assets/images/thyroid.png" class="container_image" alt="">
+      <div class="container_text">{{'WALK_IN_CLINIC.SECTION2.CONTAINER.TEXT7'|translate}}</div>
+    </div>
+    <div class="container">
+      <img src="assets/images/medicine.png" class="container_image" alt="">
+      <div class="container_text">{{'WALK_IN_CLINIC.SECTION2.CONTAINER.TEXT8'|translate}}</div>
+    </div>
+  </div>
+</section>
+<section id="section3">
+  <app-read-more></app-read-more>
+  <div class="info_section4">
+    <div class="text4">
+      <div class="title4">
+        <h1 class="title_text4">
+          {{'WALK_IN_CLINIC.SECTION3.TITLE1'|translate}}<span class="bold">  {{'WALK_IN_CLINIC.SECTION3.TITLE1_BOLD'|translate}}</span> {{'WALK_IN_CLINIC.SECTION3.TITLE2'|translate}} <span class="bold">
+            {{'WALK_IN_CLINIC.SECTION3.TITLE2_BOLD'|translate}}
+          </span>
+        </h1>
+      </div>
+      <div class="text4_info"> {{'WALK_IN_CLINIC.SECTION3.TEXT'|translate}}
+      </div>
+      <div class="adding_info">
+        <div class="phone">
+          <div class="phone_icon">
+            <img src="assets/images/phone.png" alt="">
+          </div>
+          <div class="number">(308) 555-0121</div>
+        </div>
+        <input type="button" class="read_now_botton" value=" {{'WALK_IN_CLINIC.SECTION3.BUTTON'|translate}}">
+      </div>
+    </div>
+  </div>
+  <div class="liner_background"></div>
+</section>
+<section class="section4">
+  <div class="title_for_section4"> {{'WALK_IN_CLINIC.SECTION4.TITLE'|translate}} </div>
+  <div class="menu_info">
+    <div class="menu">
+      <p (click)="menu_info_value='transparent';onSelectItem('Transparent Pricingi') "
+        [class.active]="'Transparent Pricingi' == activeItem"> {{'WALK_IN_CLINIC.SECTION4.MENU.PART1'|translate}}</p>
+      <p (click)="menu_info_value='convenience';onSelectItem('Convenience')"
+        [class.active]="'Convenience' == activeItem"> {{'WALK_IN_CLINIC.SECTION4.MENU.PART2'|translate}}</p>
+      <p (click)="menu_info_value='specialists';onSelectItem('Specialists All in One Place')"
+        [class.active]="'Specialists All in One Place' == activeItem"> {{'WALK_IN_CLINIC.SECTION4.MENU.PART3'|translate}}</p>
+      <p (click)="menu_info_value='security';onSelectItem('Security and Personalized Care')"
+        [class.active]="'Security and Personalized Care' == activeItem"> {{'WALK_IN_CLINIC.SECTION4.MENU.PART4'|translate}}</p>
+    </div>
+    <div class="dropdown_info" *ngIf="menu_info_value=='transparent'">
+      <div class="dropdown_info_text">
+        <div class="dropdown_info_text_content">
+          <div class="dropdown_title"> {{'WALK_IN_CLINIC.SECTION4.DROPDOWN_PART1.TITLE'|translate}}</div>
+          <div class="dropdown_info_text_description">{{'WALK_IN_CLINIC.SECTION4.DROPDOWN_PART1.TEXT'|translate}}</div>
+        </div>
+      </div>
+      <div class="dropdown_info_image">
+        <img src="assets/images/dropdown1.png" alt="">
+        <img src="assets/images/eclipse.png" class="eclipse" alt="">
+      </div>
+    </div>
+    <div class="dropdown_info" *ngIf="menu_info_value=='convenience'">
+      <div class="dropdown_info_text">
+        <div class="dropdown_info_text_content">
+          <div class="dropdown_title">{{'WALK_IN_CLINIC.SECTION4.DROPDOWN_PART2.TITLE'|translate}}</div>
+          <div class="dropdown_info_text_description">{{'WALK_IN_CLINIC.SECTION4.DROPDOWN_PART2.TEXT'|translate}}
+          </div>
+        </div>
+      </div>
+      <div class="dropdown_info_image">
+        <img src="assets/images/dropdown2.png" alt="">
+        <img src="assets/images/eclipse.png" class="eclipse" alt="">
+
+      </div>
+    </div>
+
+    <div class="dropdown_info" *ngIf="menu_info_value=='specialists'">
+      <div class="dropdown_info_text">
+        <div class="dropdown_info_text_content">
+          <div class="dropdown_title">{{'WALK_IN_CLINIC.SECTION4.DROPDOWN_PART3.TITLE'|translate}}</div>
+          <div class="dropdown_info_text_description">{{'WALK_IN_CLINIC.SECTION4.DROPDOWN_PART3.TEXT'|translate}}
+          </div>
+        </div>
+      </div>
+      <div class="dropdown_info_image">
+        <img src="assets/images/dropdown3.png" alt="">
+        <img src="assets/images/eclipse.png" class="eclipse" alt="">
+
+      </div>
+    </div>
+    <div class="dropdown_info" *ngIf="menu_info_value=='security'">
+      <div class="dropdown_info_text">
+        <div class="dropdown_info_text_content">
+          <div class="dropdown_title">{{'WALK_IN_CLINIC.SECTION4.DROPDOWN_PART4.TITLE'|translate}}</div>
+          <div class="dropdown_info_text_description">{{'WALK_IN_CLINIC.SECTION4.DROPDOWN_PART4.TEXT'|translate}}
+          </div>
+        </div>
+      </div>
+      <div class="dropdown_info_image">
+        <img src="assets/images/dropdown4.png" alt="">
+        <img src="assets/images/eclipse.png" class="eclipse" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="all1">
+    <input checked type="radio" name="respond" id="desktop">
+    <article id="slider">
+      <input checked type="radio" name="slider" id="switch1">
+      <input type="radio" name="slider" id="switch2">
+      <input type="radio" name="slider" id="switch3">
+      <div id="slides">
+        <div id="overflow">
+          <div class="slide_part">
+            <article>
+              <div class="box">
+                <div class="all_slide_text">
+                  <div class="title_slider">
+                    {{'WALK_IN_CLINIC.SECTION4.SLIDER.SLIDE1.TITLE'|translate}}
+                  </div>
+                  <div class="slide_text1">
+                    {{'WALK_IN_CLINIC.SECTION4.SLIDER.SLIDE1.TEXT'|translate}}
+                    <div class="dropdown_info_image2">
+                        <img src="assets/images/dackground2_1.png" class="slide_img2" alt="">
+                        <img src="assets/images/eclipse.png" class="eclipse2" alt="">
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="box">
+                <div class="all_slide_text">
+                  <div class="title_slider">
+                    {{'WALK_IN_CLINIC.SECTION4.SLIDER.SLIDE2.TITLE'|translate}}
+                  </div>
+                  <div class="slide_text">
+                    {{'WALK_IN_CLINIC.SECTION4.SLIDER.SLIDE2.TEXT'|translate}}</div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="box">
+                <div class="all_slide_text">
+                  <div class="title_slider">
+                    {{'WALK_IN_CLINIC.SECTION4.SLIDER.SLIDE3.TITLE'|translate}}
+                  </div>
+                  <div class="slide_text">
+                    {{'WALK_IN_CLINIC.SECTION4.SLIDER.SLIDE3.TEXT'|translate}}</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div id="controls">
+        <label for="switch1"></label>
+        <label for="switch2"></label>
+        <label for="switch3"></label>
+      </div>
+      <div id="active">
+        <label for="switch1"></label>
+        <label for="switch2"></label>
+        <label for="switch3"></label>
+      </div>
+    </article>
+  </div>
+</section>
+<section id="section5">
+  <div class="title_for_section5"> {{'WALK_IN_CLINIC.SECTION5.TITLE'|translate}}</div>
+  <div class="subtitle_for_section5"> {{'WALK_IN_CLINIC.SECTION5.TEXT'|translate}}</div>
+  <div class="adding_info_contact">
+    <div class="location">
+      <img src="assets/images/map.png" class="location_map" alt="">
+      <img src="assets/images/location.png" class="location_icon" alt="">
+    </div>
+    <div class="contacts">
+      <div class="title_contacts">{{'WALK_IN_CLINIC.SECTION5.CONTACTS.TITLE'|translate}}</div>
+      <div class="text_contacts">
+        <div class="contact_phone">
+          <div class="contact_phone_icon">
+            <img src="assets/images/phone3.png" alt="">
+          </div>
+          <div class="contact_phone_number"> (308) 555-0121 6928 </div>
+        </div>
+        <div class="contact_mail">
+          <div class="contact_mail_icon">
+            <img src="assets/images/message2.png" alt="">
+          </div>
+          <div class="contact_mail_adress"> kelly.howard@example.com</div>
+        </div>
+        <div class="contact_location">
+          <div class="contact_location_icon">
+            <img src="assets/images/loc.png" alt="">
+          </div>
+          <div class="contact_location_adress"> {{'WALK_IN_CLINIC.SECTION5.CONTACTS.LOCATION'|translate}}
+          </div>
+        </div>
+      </div>
+      <div class="social_network_icon">
+        <div class="social_network_icon_lincedin">
+          <div class="circle">
+            <img src="assets/images/linkedin2.png" class="social_network_icon_localion" alt="">
+            <img src="assets/images/circle.png" class="circle_for_icon" alt="">
+          </div>
+        </div>
+        <div class="social_network_icon_facebook">
+          <div class="circle">
+            <img src="assets/images/facebook2.png" class="social_network_icon_localion facebook" alt="">
+            <img src="assets/images/circle.png" class="circle_for_icon" alt="">
+          </div>
+        </div>
+        <div class="social_network_icon_twiter">
+          <div class="circle">
+            <img src="assets/images/twitter2.png" class="social_network_icon_localion" alt="">
+            <img src="assets/images/circle.png" class="circle_for_icon" alt="">
+          </div>
+        </div>
+        <div class="social_network_icon_youtube">
+          <div class="circle">
+            <img src="assets/images/youtube2.png" class="social_network_icon_localion youtube" alt="">
+            <img src="assets/images/circle.png" class="circle_for_icon" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="elipse5"></div>
+<div class="elipse3"></div>
+<div class="elipse2_1"></div>
+<div class="elipse2_2"></div>
+<div class="elipse2_3"></div>
+<div class="elipse2_4"></div>
+<div class="elipse2_5"></div>

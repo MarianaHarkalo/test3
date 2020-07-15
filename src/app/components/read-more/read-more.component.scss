@@ -1,0 +1,16 @@
+.background {
+    position: relative;
+    width: 1440px;
+    height: 489px;
+    background: linear-gradient(89.65deg, #D6D4D5 24.84%, #F2F2F4 99.89%);
+  }
+  
+@media screen and (min-width: 375px) and(max-width: 378px) {
+    .background {
+      
+        display: none;
+      }
+      .third_img{
+          display: none
+      }
+}

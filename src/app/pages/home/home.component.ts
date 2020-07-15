@@ -6,24 +6,9 @@ import { Component, OnInit, HostListener, SimpleChanges, OnChanges } from '@angu
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  width;
-  bool:boolean;
-  constructor() {
-    this.getScreenSize();
-   }
+ 
+  constructor() {}
 
   ngOnInit(): void {
-  }
- 
-  @HostListener('window:resize', ['$event'])
-  getScreenSize(event?) {
-        this.width = window.outerWidth;
-        if(this.width>=374&&this.width<=378){
-          this.bool=true;
-        }
-        else{
-          this.bool=false;
-        }
-  }
-  
+  } 
 }
