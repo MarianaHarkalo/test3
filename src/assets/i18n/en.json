@@ -1,0 +1,188 @@
+{
+  "HEADER": {
+    "WHO_WE_ARE": "Who we are",
+    "WALK_IN": "Walk-in Clinic",
+    "SERVICES": "Services",
+    "APPOINTMENTS": "Appointments",
+    "CONTACT": "Contact"
+  },
+  "MAIN": {
+    "SECTION1": {
+      "TITLE": "Your Friendly Neighborhood Medical Clinic",
+      "INFO": "Lockwood Clinic has provided compassionate and comprehensive care to the Ontario community for nearly a century.Founded on the belief that patients should have a convenient and all-inclusive destination for diagnostic testing and related treatment",
+      "BUTTON": "Check Wait Times"
+    },
+    "SECTION2": {
+      "TITLE": " Medical Clinic Downtown Toronto",
+      "INFO1": "Lockwood Clinic has provided compassionate and comprehensive care to the Ontario community for nearly a century. Founded on the belief that patients should have a convenient and all-inclusive destination for diagnostic testing and related treatment, Lockwood works to provide medical and health care that is as patient friendly as it is extensive.",
+      "INFO2": "Our downtown medical clinic provides a “one-stop” healthcare destination for Toronto area residents of all ages. We provide onsite testing with Nuclear Cardiology and an X-Ray Ultrasound Lab along with a Pharmacy and Physiotherapy Clinic.",
+      "INFO3": "Each department of our clinic is directed by experienced physicians and professionals including onsite pathologists, ultrasound technicians, cardiologists, and family practice physicians. Each member of the Lockwood team has extensive experience in their field and patient care. ",
+      "INFO4": "Experience the Lockwood difference with our commitment to healthcare that is focused on total wellness and patient satisfaction."
+    },
+    "SECTION3": {
+      "TITLE": "Walk-In Medical Clinic Downtown,Toronto",
+      "INFO1": "Lockwood walk-in clinic provides convenient and trusted care when you need it. As a dedicated walk-in clinic, we strive to have the staff and supplies available to handle a wide range of medical concerns. From simple coughs and colds to personal injuries and diagnostic needs, our walk-in clinic is here to provide the best care for our community.",
+      "INFO2": "By maintaining a centralized database of patient information, our entire medical staff can access your files and provide optimal, personalized care based on your chart. This helps to minimize waiting for patients and the potential for inaccurate or incomplete medical history information. ",
+      "INFO3": "While Lockwood does accept appointments, referrals are not required for the majority of our services unless you require a specialist. Our walk-in services allow our patients to get care quickly for a variety of illnesses, injuries and preventative treatments including:",
+      "BLOCK_TEXT": "24 Hr Holter Monitoring",
+      "BLOCK_TEXT1": "Audiology Testingg",
+      "BLOCK_TEXT2": " 24 Hr Blood Pressure Monitoring",
+      "BLOCK_TEXT3": "Spirometry Testing",
+      "BLOCK_TEXT4": "Optometrist/Eye Exams/Eyewear"
+    },
+    "SECTION4": {
+      "TITLE1": "Learn More About",
+      "TITLE1_BOLD": "Our Hours",
+      "TITLE2": " And When",
+      "TITLE2_BOLD": "An Appointment Is Required",
+      "TEXT": "If have additional questions, our highly trained staff can address them during normal business hours by calling us at",
+      "BUTTON": "Read Now"
+    },
+    "SECTION5": {
+      "MENU_PART": "Family Practice",
+      "MENU_PART1": "Optometry",
+      "MENU_PART2": "Dental Clinic",
+      "MENU_PART3": "Dietitian",
+      "MENU_PART4": "Physiotherapy",
+      "MENU_PART5": "Audiology/Hearing Aids",
+      "MENU_PART6": "X-Ray Ultrasound Lab",
+      "MENU_PART7": "Nuclear Cardiologists",
+      "TITLE": "Family Practice at Lockwood Downtown Medical Clinic",
+      "INFO1": "Lockwood family practice provides comprehensive and compassionate care for your whole family. Our medical clinic downtown Toronto includes primary care options that make it easy to get the healthcare support you need. From treatment for common illnesses such as strep throat and the flu to more advanced concerns, we strive to provide care that you can count on to keep you and your loved ones healthy.",
+      "INFO2": "At our conveniently located medical clinic downtown, Toronto patients are treated by our friendly staff and experienced physicians in our modern facility. Learn more about our primary and preventative care options available from our downtown medical clinic.",
+      "BUTTON": "Read More",
+      "TITLE_SLIDER": "Family Practice at Lockwood Downtown Medical Clinic",
+      "SLIDE_TEXT": "Lockwood family practice provides comprehensive and compassionate care for your whole family. Our medical clinic downtown Toronto includes primary care options that make it easy to get the healthcare support you need. From treatment for common illnesses such as strep throat and the flu to more advanced concerns, we strive to provide care that you can count on to keep you and your loved ones healthy. At our conveniently located medical clinic downtown, Toronto patients are treated by our friendly staff and experienced physicians in our modern facility. Learn more about our primary and preventative care options available from our downtown medical clinic.",
+      "BUTTON2": "Read More"
+    },
+    "SECTION6": {
+      "TITLE": "Pharmacy",
+      "INFO1": "Fill your prescriptions at our on-site pharmacy for the fastest and most convenient service. Most prescriptions can be ready in a matter of minutes, making this an ideal solution for picking up medications on the same day as an appointment. ",
+      "INFO2": "Our knowledgeable pharmacists can help guide you on precautions for new and existing prescriptions including potential drug interactions. As our pharmacy is connected to our clinic, all of your prescription needs can easily be filled here.",
+      "TEXT_BOLD": "Pick-up from our pharmacy is on the main floor of our facility. Free delivery services are available to local residents."
+    }
+  },
+  "WALK_IN_CLINIC": {
+    "SECTION1": {
+      "TITLE": " Walk-In Clinic Downtown Toronto",
+      "INFO": "  Sickness, injury, and pain can strike suddenly. When you are suffering, you need a trusted walk-in medical clinic you can rely on to provide optimal care quickly. Lockwood strives to provide a full range of diagnostic and treatment options at our conveniently located downtown Toronto clinic. Featuring advanced medical technology and experienced, caring staff, Lockwood is committed to reducing the stress and worry of medical care with our patient-friendly approach and all-in-one location convenience.",
+      "BUTTON": "Check Wait Times"
+
+    },
+    "SECTION2": {
+      "TITLE": "Services Offered at Lockwood Walk-In Clinic Downtown Toronto",
+      "SUBTITLE": "Lockwood offers a range of diagnostic and treatment options including:",
+      "CONTAINER": {
+        "TEXT1": "X-ray and Ultrasound",
+        "TEXT2": "Blood Testing",
+        "TEXT3": "Echocardiograms",
+        "TEXT4": "Stress Tests ",
+        "TEXT5": "Cardiac Consultation",
+        "TEXT6": "Bone Density Testing",
+        "TEXT7": "Thyroid Scanning Pharmacy",
+        "TEXT8": "Pharmacy"
+      }
+    },
+    "SECTION3": {
+      "TITLE1": "We also offer",
+      "TITLE1_BOLD": "sleep disorder treatment",
+      "TITLE2": " and diagnosis in our offsite location and can refer patients to specialists for additional treatment and testing ",
+      "TITLE2_BOLD": "when needed.",
+      "TEXT": "To find if Lockwood offers the services that you need, please contact us",
+      "BUTTON": "Read More"
+    },
+    "SECTION4": {
+      "TITLE": "Why Choose Lockwood Clinic for Your Health?",
+      "MENU": {
+        "PART1": "Transparent Pricingi",
+        "PART2": "Convenience",
+        "PART3": "Specialists All in One Place",
+        "PART4": "Security and Personalized Care"
+      },
+      "DROPDOWN_PART1": {
+        "TITLE": "Transparent Pricing",
+        "TEXT": "All our physicians participate in the Ontario Health Insurance Plan (OHIP) which helps to streamline payments and ensure transparency in pricing."
+      },
+      "DROPDOWN_PART2": {
+        "TITLE": "Convenience",
+        "TEXT": "All our physicians participate in the Ontario Health Insurance Plan (OHIP) which helps to streamline payments and ensure transparency in pricing."
+      },
+      "DROPDOWN_PART3": {
+        "TITLE": "Specialists All in One Place",
+        "TEXT": "All our physicians participate in the Ontario Health Insurance Plan (OHIP) which helps to streamline payments and ensure transparency in pricing."
+      },
+      "DROPDOWN_PART4": {
+        "TITLE": "Security and Personalized Care",
+        "TEXT": "All our physicians participate in the Ontario Health Insurance Plan (OHIP) which helps to streamline payments and ensure transparency in pricing."
+      },
+      "SLIDER": {
+        "SLIDE1": {
+          "TITLE": " Transparent Pricing",
+          "TEXT": " All our physicians participate in the Ontario Health Insurance Plan (OHIP) which helps to streamline payments and ensure transparency in pricing."
+        },
+        "SLIDE2": {
+          "TITLE": "Allergies",
+          "TEXT": "Allergic reactions to food are a common issue for many but pinpointing the food or foods responsible can be difficult. A dietitian will identify common and less common allergens and create a diet plan to determine the causes."
+        },
+        "SLIDE3": {
+          "TITLE": "  Musculoskeletal/ Orthopedic",
+          "TEXT": " This is the type of physiotherapy most people think of and is a common form of treatment for a variety of injuries and conditions. With orthopedic therapy, physical therapists will work with you to increase the range of movement that is lost due to conditions such as arthritis, strains, sprains, and fractures along with poor posture and certain injuries."
+        }
+      }
+
+    },
+    "SECTION5":{
+        "TITLE":"Where is Lockwood Clinic Located?",
+        "TEXT":"Located in downtown Toronto close to many businesses and attractions, Lockwood can be found at 790 Bay Street. Parking is offered to the south of the building on Bay St along with underground parking.",
+        "CONTACTS":{
+            "TITLE":"Head Office",
+            "LOCATION":"Blossom Hill Rd undefined Surrey, Oregon 20441 United States"
+        }
+    }
+  },
+  "FOOTER":{
+      "MENU":{
+        "PART1":"About us",
+        "PART2":"Our Staff",
+        "PART3":"Walk-in Clinic",
+        "PART4":"Appointments",
+        "PART5":"Services"
+    },
+    "SOCIAL_MEDIA":"Social media",
+    "SERVICE_BLOCK":{
+        "TITLE":"Services",
+        "SERVICE_MENU":{
+            "PART1":"Family Practice",
+            "PART2":"Optometry",
+            "PART3":"Dental Clinic",
+            "PART4":"Dietitian",
+            "PART5":"Physiotherapy Clinic",
+            "PART6":"Audiology/Hearing Aids",
+            "PART7":"X-ray Ultrasound",
+            "PART8":"Nuclear Cardiologists",
+            "PART9":"Pharmacy"
+        }
+    },
+    "CONTACT_BLOCK":{
+        "TITLE":"Contacts",
+        "ADRESS":"6928 Blossom Hill Rd undefined Surrey, Oregon 20441 United States"
+    },
+    "HOUR_BLOCK":{
+        "TITLE":"Hours",
+        "HOUR_MENU":{
+            "PART1":"Mon-Thurs:",
+            "TIME1":"9AM - 8PM",
+            "PART2":"Friday:",
+            "TIME2":"9AM - 2PM",
+            "PART3":"Saturday:",
+            "TIME3":"9AM - 3PM",
+            "PART4":"Sunday:",
+            "TIME4":"CLOSED"
+        }
+    },
+    "FOOTER2":{
+        "TEXT":"Copyright © Lockwood.com 2019 | Disclaimer"
+    }
+  }
+  
+}

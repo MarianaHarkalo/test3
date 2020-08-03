@@ -1,16 +1,16 @@
 <div id="footer1">
   <div class="footer_content">
-    <img src="assets/images/Screenshot_2.png" class="icon" alt="">
+    <img src="assets/images/Screenshot_2.png" routerLink="home" class="icon" alt="">
     <div class="footer_menu">
-      <p>About us</p>
-      <p>Our Staff</p>
-      <p>Walk-in Clinic</p>
-      <p>Appointments</p>
-      <p *ngIf="bool==true">Services</p>
+      <a> {{'FOOTER.MENU.PART1'|translate}}</a>
+      <a>{{'FOOTER.MENU.PART2'|translate}}</a>
+      <a  routerLink="WalkInClinic">{{'FOOTER.MENU.PART3'|translate}}</a>
+      <a>{{'FOOTER.MENU.PART4'|translate}}</a>
+      <a class="service_in_menu">{{'FOOTER.MENU.PART5'|translate}}</a>
     </div>
     <div class="info">
       <div class="social_media">
-        <div class="title title1">Social media</div>
+        <div class="title title1">{{'FOOTER.SOCIAL_MEDIA'|translate}}</div>
         <div class="back1">
           <span class="back">
             <img src="assets/images/linkedin.png" class="social_icon" alt="">
@@ -26,26 +26,26 @@
           </span>
         </div>
       </div>
-      <div class="services" *ngIf="bool==false">
-        <div class="title">Services</div>
+      <div class="services" >
+        <div class="title">{{'FOOTER.SERVICE_BLOCK.TITLE'|translate}}</div>
         <div class="part" >
           <div class="part1">
-            <p>Family Practice</p>
-            <p>Optometry</p>
-            <p>Dental Clinic</p>
-            <p>Dietitian</p>
-            <p>Physiotherapy Clinic</p>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART1'|translate}}</a>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART2'|translate}}</a>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART3'|translate}}</a>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART4'|translate}}</a>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART5'|translate}}</a>
           </div>
           <div class="part2">
-            <p>Audiology/Hearing Aids</p>
-            <p>X-ray Ultrasound</p>
-            <p>Nuclear Cardiologists</p>
-            <p>Pharmacy</p>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART6'|translate}}</a>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART7'|translate}}</a>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART8'|translate}}</a>
+            <a>{{'FOOTER.SERVICE_BLOCK.SERVICE_MENU.PART9'|translate}}</a>
           </div>
         </div>
       </div>
       <div class="contacts">
-        <div class="title">Contacts</div>
+        <div class="title">{{'FOOTER.CONTACT_BLOCK.TITLE'|translate}}</div>
         <div class="part">
           <div class="contact_part">
             <div class="contact_icon">
@@ -64,31 +64,31 @@
           <div class="contact_icon">
             <img src="assets/images/place.png" alt="">
           </div>
-          <div class="contact_info">6928 Blossom Hill Rd undefined Surrey, Oregon 20441 United States</div>
+          <div class="contact_info">{{'FOOTER.CONTACT_BLOCK.ADRESS'|translate}}</div>
         </div>
       </div>
       <div class="hours">
-        <div class="title title_hour">Hours</div>
+        <div class="title title_hour">{{'FOOTER.HOUR_BLOCK.TITLE'|translate}}</div>
         <div class="part_hour">
-            <div class="part_hour1">Mon-Thurs:</div>
-            <div class="part_hour2">9AM - 8PM</div>
+            <div class="part_hour1">{{'FOOTER.HOUR_BLOCK.HOUR_MENU.PART1'|translate}}</div>
+            <div class="part_hour2">{{'FOOTER.HOUR_BLOCK.HOUR_MENU.TIME1'|translate}}</div>
         </div>
         <div class="part_hour">
-            <div class="part_hour1">Friday:</div>
-            <div class="part_hour2">9AM - 2PM</div>
+            <div class="part_hour1">{{'FOOTER.HOUR_BLOCK.HOUR_MENU.PART2'|translate}}</div>
+            <div class="part_hour2">{{'FOOTER.HOUR_BLOCK.HOUR_MENU.TIME2'|translate}}</div>
         </div>
         <div class="part_hour">
-            <div class="part_hour1">Saturday:</div>
-            <div class="part_hour2">9AM - 3PM</div>
+            <div class="part_hour1">{{'FOOTER.HOUR_BLOCK.HOUR_MENU.PART3'|translate}}</div>
+            <div class="part_hour2">{{'FOOTER.HOUR_BLOCK.HOUR_MENU.TIME3'|translate}}</div>
         </div>
         <div class="part_hour">
-            <div class="part_hour1">Sunday:</div>
-            <div class="part_hour2">CLOSED</div>
+            <div class="part_hour1">{{'FOOTER.HOUR_BLOCK.HOUR_MENU.PART4'|translate}}</div>
+            <div class="part_hour2">{{'FOOTER.HOUR_BLOCK.HOUR_MENU.TIME4'|translate}}</div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div id="footer2" *ngIf="bool==false">
+<div id="footer2" >
     <p>Copyright © Lockwood.com 2019 | Disclaimer</p>
 </div>
